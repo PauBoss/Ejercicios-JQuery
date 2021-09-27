@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  #E59866;
+    align-content: center;
+}
+
+table{
+    margin-top: 100px;
+}
+
+table, th, td{
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 25px;
+    border-collapse: collapse;
+    text-align: center;
+    font-weight: bold;
+}
+
+th#titulo{
+    background-color: #FAE5D3;
+    font-size: 35px;
+}
+
+th{
+    background-color: lightgray;
+    font-size: 25px;
+}
+
+td{
+    background-color: #F9E79F;
+}
+
+a{
+    color: #406B6B; 
+    text-decoration: none;
+}
+
+a:hover{
+    color: #EB984E ;
+}
